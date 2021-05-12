@@ -1,5 +1,5 @@
 {% set name = "logdir" %}
-{% set version = "0.9.3" %}
+{% set version = "0.10.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/logdir-{{ version }}.tar.gz
-  sha256: b4d08e4b481f19bb043a8cfba6bdc3ad6e3c2612a4343b060d9cdf7279177122
+  sha256: 1bea14bc60f6f83b5948a2deb5653ece8996737a6a09d4f3e4fa4c5a06dc34ff
 
 build:
   number: 0
