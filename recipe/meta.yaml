@@ -35,7 +35,7 @@ test:
     - pip
 
 about:
-  home: https://logdir.btjanka.net
+  home: https://logdir.btjanaka.net
   summary: A utility for managing logging directories.
   license: MIT
   license_file: LICENSE
