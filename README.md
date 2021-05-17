@@ -1,7 +1,7 @@
 About logdir
 ============
 
-Home: https://logdir.btjanka.net
+Home: https://logdir.btjanaka.net
 
 Package license: MIT
 
