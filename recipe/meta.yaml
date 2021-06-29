@@ -25,6 +25,7 @@ requirements:
     - python >=3.7,<4.0
     - ruamel.yaml >0.15
     - toml >=0.10
+    - python-slugify >= 4.0.0
 
 test:
   imports:
