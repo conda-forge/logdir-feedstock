@@ -1,5 +1,5 @@
 {% set name = "logdir" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/logdir-{{ version }}.tar.gz
-  sha256: 08de2023f8181241e8594f013b316d9ca7c3ef0f4ab45d3b445abd15a2192228
+  sha256: b04e4a58220489fbb7e6ba4781a3f45f872ffbd529aa295ba8b4495007f1a7b5
 
 build:
   number: 0
@@ -26,6 +26,7 @@ requirements:
     - ruamel.yaml >0.15
     - toml >=0.10
     - python-slugify >=4.0.0
+    - shortuuid >=1.0.11
 
 test:
   imports:
