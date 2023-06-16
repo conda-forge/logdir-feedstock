@@ -26,6 +26,7 @@ requirements:
     - ruamel.yaml >0.15
     - toml >=0.10
     - python-slugify >=4.0.0
+    - shortuuid >=1.0.11
 
 test:
   imports:
