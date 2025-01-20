@@ -22,7 +22,7 @@ requirements:
     - poetry
   run:
     - dulwich >=0.20.0
-    - python >={{ python_min }},<4.0
+    - python >={{ python_min }}
     - ruamel.yaml >0.15
     - toml >=0.10
     - python-slugify >=4.0.0
